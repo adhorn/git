@@ -22,6 +22,7 @@ end
 depends 'runit', '>= 1.0'
 depends 'yum', '~> 3.0'
 depends 'yum-epel'
+depends 'build-essential'
 
 attribute 'git/server/base_path',
           :display_name => 'Git Daemon Base Path',
